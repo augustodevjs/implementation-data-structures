@@ -14,7 +14,7 @@ public class Program
         staticArray.InsertEnd(arr, 10, ref length, capacity);
 
         int elementAtIndex1 = arr[1];
-        Console.WriteLine($"Elemento no índice 1: {elementAtIndex1}");
+        Console.WriteLine($"Element at index 1: {elementAtIndex1}");
 
         staticArray.InsertMiddle(arr, 1, 7, ref length);
 

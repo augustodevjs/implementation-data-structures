@@ -10,19 +10,18 @@ public class Program
         array.PushBack(20);
         array.PushBack(30);
 
-        int posicaoInserir = 1;
-        int valorInserir = 99;
-        Console.WriteLine($"\nInserindo o valor {valorInserir} " +
-            $"na posição {posicaoInserir}...");
-        array.Insert(posicaoInserir, valorInserir);
+        int insertPosition = 1;
+        int insertValue = 99;
+        Console.WriteLine($"\nInserting value {insertValue} " +
+            $"at position {insertPosition}...");
+        array.Insert(insertPosition, insertValue);
 
-        int valorBuscado = 20;
-        int indiceEncontrado = array.Search(valorBuscado);
-        Console.WriteLine($"O valor {valorBuscado} foi encontrado " +
-            $"no índice {indiceEncontrado}");
+        int searchValue = 20;
+        int foundIndex = array.Search(searchValue);
+        Console.WriteLine($"Value {searchValue} found at index {foundIndex}");
 
-        int posicaoRemover = 2;
-        Console.WriteLine($"\nRemovendo o elemento na posição {posicaoRemover}...");
-        array.RemoveAt(posicaoRemover);
+        int removePosition = 2;
+        Console.WriteLine($"\nRemoving element at position {removePosition}...");
+        array.RemoveAt(removePosition);
     }
 }

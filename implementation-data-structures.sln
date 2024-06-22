@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "part-01\Linke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackUsingArray", "part-01\StackUsingArray\StackUsingArray.csproj", "{5BB60E80-65BD-4E41-A537-B088152C3B88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackUsingLinkedList", "part-01\StackUsingLinkedList\StackUsingLinkedList.csproj", "{30F99F05-A797-4B23-8578-B0117A68228B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{5BB60E80-65BD-4E41-A537-B088152C3B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BB60E80-65BD-4E41-A537-B088152C3B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BB60E80-65BD-4E41-A537-B088152C3B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F99F05-A797-4B23-8578-B0117A68228B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F99F05-A797-4B23-8578-B0117A68228B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F99F05-A797-4B23-8578-B0117A68228B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F99F05-A797-4B23-8578-B0117A68228B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{68FDD837-A5B1-4372-BF01-FAB350FB81D1} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
 		{4B59E1F9-34DD-4F44-9BC9-D232F07866FF} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
 		{5BB60E80-65BD-4E41-A537-B088152C3B88} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
+		{30F99F05-A797-4B23-8578-B0117A68228B} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {978D3E01-9516-4F34-B7CC-ADAE36FDB778}

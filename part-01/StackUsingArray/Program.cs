@@ -16,7 +16,7 @@ public class Program
         Console.WriteLine(stack.Pop());
         Console.WriteLine(stack.Pop());
 
-        Console.WriteLine("A pilha está vazia? " + stack.IsEmpty());
+        Console.WriteLine("Is the stack empty? " + stack.IsEmpty());
 
         stack.Push(70);
         stack.Push(80);
@@ -28,6 +28,6 @@ public class Program
         Console.WriteLine(stack.Pop());
         Console.WriteLine(stack.Pop());
 
-        Console.WriteLine("A pilha está vazia? " + stack.IsEmpty());
+        Console.WriteLine("Is the stack empty? " + stack.IsEmpty());
     }
 }
