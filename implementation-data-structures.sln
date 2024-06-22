@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part-01", "part-01", "{7D3D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticArray", "part-01\StaticArray\StaticArray.csproj", "{9CA5BC80-DFEC-4383-B7A5-860C7725B4BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{6153F0B9-6C5D-4CEB-96CA-4048C377FDDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "part-01\DynamicArray\DynamicArray.csproj", "{68FDD837-A5B1-4372-BF01-FAB350FB81D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "part-01\LinkedList\LinkedList.csproj", "{4B59E1F9-34DD-4F44-9BC9-D232F07866FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,17 +21,22 @@ Global
 		{9CA5BC80-DFEC-4383-B7A5-860C7725B4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CA5BC80-DFEC-4383-B7A5-860C7725B4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CA5BC80-DFEC-4383-B7A5-860C7725B4BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6153F0B9-6C5D-4CEB-96CA-4048C377FDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6153F0B9-6C5D-4CEB-96CA-4048C377FDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6153F0B9-6C5D-4CEB-96CA-4048C377FDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6153F0B9-6C5D-4CEB-96CA-4048C377FDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FDD837-A5B1-4372-BF01-FAB350FB81D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FDD837-A5B1-4372-BF01-FAB350FB81D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FDD837-A5B1-4372-BF01-FAB350FB81D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FDD837-A5B1-4372-BF01-FAB350FB81D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B59E1F9-34DD-4F44-9BC9-D232F07866FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B59E1F9-34DD-4F44-9BC9-D232F07866FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B59E1F9-34DD-4F44-9BC9-D232F07866FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B59E1F9-34DD-4F44-9BC9-D232F07866FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9CA5BC80-DFEC-4383-B7A5-860C7725B4BC} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
-		{6153F0B9-6C5D-4CEB-96CA-4048C377FDDC} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
+		{68FDD837-A5B1-4372-BF01-FAB350FB81D1} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
+		{4B59E1F9-34DD-4F44-9BC9-D232F07866FF} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {978D3E01-9516-4F34-B7CC-ADAE36FDB778}
