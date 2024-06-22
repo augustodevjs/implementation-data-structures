@@ -23,4 +23,4 @@ For more detailed information on these implementations and their applications, r
 
 ---
 
-Made with :heart: by [João Augusto](jaugustodev.com.br/en)
+Made with :heart: by João Augusto
