@@ -13,9 +13,6 @@ Linked lists are collections of elements called nodes, where each node contains 
 ### Stack
 Stacks are collections of elements that follow the LIFO (Last In, First Out) principle, where the last element added is the first to be removed. They are used for memory management, undo/redo operations, and more.
 
-### Queue
-Queues are collections of elements that follow the FIFO (First In, First Out) principle, where the first element added is the first to be removed. They are used in process management, waiting systems, and more.
-
 ## Article
 For more detailed information on these implementations and their applications, read the full article on my portfolio:
 
