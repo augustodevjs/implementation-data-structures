@@ -5,15 +5,23 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part-01", "part-01", "{7D3D612E-06AA-4DA1-B110-FAB2748B7831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticArray", "part-01\StaticArray\StaticArray.csproj", "{9CA5BC80-DFEC-4383-B7A5-860C7725B4BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticArray", "part-01\StaticArray\StaticArray.csproj", "{9CA5BC80-DFEC-4383-B7A5-860C7725B4BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "part-01\DynamicArray\DynamicArray.csproj", "{68FDD837-A5B1-4372-BF01-FAB350FB81D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicArray", "part-01\DynamicArray\DynamicArray.csproj", "{68FDD837-A5B1-4372-BF01-FAB350FB81D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "part-01\LinkedList\LinkedList.csproj", "{4B59E1F9-34DD-4F44-9BC9-D232F07866FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "part-01\LinkedList\LinkedList.csproj", "{4B59E1F9-34DD-4F44-9BC9-D232F07866FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackUsingArray", "part-01\StackUsingArray\StackUsingArray.csproj", "{5BB60E80-65BD-4E41-A537-B088152C3B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackUsingArray", "part-01\StackUsingArray\StackUsingArray.csproj", "{5BB60E80-65BD-4E41-A537-B088152C3B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackUsingLinkedList", "part-01\StackUsingLinkedList\StackUsingLinkedList.csproj", "{30F99F05-A797-4B23-8578-B0117A68228B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackUsingLinkedList", "part-01\StackUsingLinkedList\StackUsingLinkedList.csproj", "{30F99F05-A797-4B23-8578-B0117A68228B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueUsingArray", "part-01\QueueUsingArray\QueueUsingArray.csproj", "{BCA1FFF9-2E05-4E7A-AAFA-713B72438402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part-02", "part-02", "{190A56AC-6B88-46D4-93C2-BE11ADE777E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "part-02\Queue\Queue.csproj", "{52AEEC72-2831-43D5-8C21-ECAFC95472C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part-03", "part-03", "{4CCC2059-5523-4C57-A105-012EF9838CD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +49,14 @@ Global
 		{30F99F05-A797-4B23-8578-B0117A68228B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F99F05-A797-4B23-8578-B0117A68228B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F99F05-A797-4B23-8578-B0117A68228B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA1FFF9-2E05-4E7A-AAFA-713B72438402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA1FFF9-2E05-4E7A-AAFA-713B72438402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA1FFF9-2E05-4E7A-AAFA-713B72438402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA1FFF9-2E05-4E7A-AAFA-713B72438402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AEEC72-2831-43D5-8C21-ECAFC95472C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AEEC72-2831-43D5-8C21-ECAFC95472C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AEEC72-2831-43D5-8C21-ECAFC95472C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AEEC72-2831-43D5-8C21-ECAFC95472C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +67,8 @@ Global
 		{4B59E1F9-34DD-4F44-9BC9-D232F07866FF} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
 		{5BB60E80-65BD-4E41-A537-B088152C3B88} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
 		{30F99F05-A797-4B23-8578-B0117A68228B} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
+		{BCA1FFF9-2E05-4E7A-AAFA-713B72438402} = {7D3D612E-06AA-4DA1-B110-FAB2748B7831}
+		{52AEEC72-2831-43D5-8C21-ECAFC95472C3} = {190A56AC-6B88-46D4-93C2-BE11ADE777E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {978D3E01-9516-4F34-B7CC-ADAE36FDB778}
